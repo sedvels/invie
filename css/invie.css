@@ -79,16 +79,20 @@ a {
 
 .right {
 	float: right;
+	position: relative;
+	top: -127px;
 }
 
 .left {
 	float: left;
+	position: relative;
+	top: 80px;
 }
 
 .guitarra {
 	margin: 10px;
 	padding: 10px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	border: 1px solid #1F313C;
 }
 
@@ -99,4 +103,9 @@ a {
 .contenedor-guitarra-b {
 	margin-left: 370px;
 
+}
+
+.header {
+	position: relative;
+	
 }
