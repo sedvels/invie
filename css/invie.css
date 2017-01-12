@@ -63,6 +63,14 @@ a {
 	margin-bottom: 70px;
 }
 
+button {
+	border: none;
+	border-radius: 8px;
+	background: #fd324e;
+	color: white;
+	padding: 7px;
+}
+
 .logotipo {
 	display: inline-block;
 }
@@ -94,6 +102,7 @@ a {
 	padding: 10px;
 	/*overflow: hidden;*/
 	border: 1px solid #1F313C;
+	border-radius: 8px;
 }
 
 .contenedor-guitarra-a {
@@ -102,10 +111,9 @@ a {
 
 .contenedor-guitarra-b {
 	margin-left: 370px;
-
 }
 
 .header {
 	position: relative;
-	
+
 }
