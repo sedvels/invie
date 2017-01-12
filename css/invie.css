@@ -16,8 +16,12 @@ a {
 	text-decoration: none;
 }
 
-.header {
+.contenedor {
 	margin: auto;
+}
+
+.header {
+	
 }
 
 .titulo {
@@ -41,7 +45,6 @@ a {
 
 .guitarras {
 	color: #1f313c;
-	margin: auto;
 }
 .guitarras h2 {
 	font-family: 'Montserrat', sans-serif;
