@@ -1,36 +1,53 @@
 * {
-	border: 1px solid red;
+	border: 2px solid red;
+	margin: 10px;
+	padding: 10px;
+
 }
 
-header {
-	background: blue;
+body {
+	font-family: 'Allerta', sans-serif;
 }
 
-section {
-	background: purple;
+a {
+	text-decoration: none;
 }
 
-/*selector descendente*/
-article h3 {
-	color: green;
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
 }
 
 .title-a {
-	background: yellow;
+	font-size: 24px;
 }
 
 .title-b {
-	background: salmon;
+	font-size: 50px;
 }
 
-#header {
-	border: 3px solid black;
+.guitarras {
+	color: #1f313c;
+}
+.guitarras h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
 }
 
-#portada {
-	border: 3px solid orange;
+.portada {
+	background-image: url("../images/background.png");
+	color: white;
 }
 
-#guitarras {
-	border: 3px solid brown;
+.logotipo {
+	display: inline-block;
+}
+
+.menu {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.menu li {
+	display: inline-block;
 }
