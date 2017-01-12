@@ -7,7 +7,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
 	</head>
 	<body>
-		<header id="header" class="contendor header"> <!-- header -->
+		<header id="header" class="contenedor header"> <!-- header -->
 			
 			<figure class="logotipo"> <!-- logotipo -->
 				<img src="images/invie.png" width="186" alt="Invie logotipo" />
@@ -39,7 +39,7 @@
 			<h2 id="guitarras" >Nuestras Guitarras</h2> <!-- titulo -->
 			<article class="guitarra"> <!-- guitarra1 -->
 				<img class="right" src="images/invie-acustica.png" width="350" alt="Guitarra Invie Classic">
-				<div class="contenedor-gitarra-a">
+				<div class="contenedor-guitarra-a">
 					<h3 class="title-b">Invie Acústica</h3>
 					<ol>
 						<li>Estilo vintage</li>
@@ -60,6 +60,49 @@
 					</ol>
 				</div>
 			</article>			
-		</section>		
+		</section>
+		<footer class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="images/invie-white.png" alt="logotipo blanco">
+					<a href="tel:+447784565423"><strong>teléfono</strong> <span>+447784565423</span></a>
+					<a href="mailto:contacto@invie.com"><strong>e-mail</strong> <span>contacto@invie.com</span></a>
+				</div>
+				<form class="formulario" action="">
+					<label for="nombre">nombre</label>
+					<input type="text" id="nombre" name="nombre" value="" required/>
+					<label for="email">e-mail</label>
+					<input type="email" id="email" name="email" value="" required />
+					<div class="sexo">
+						<label for="mujer">
+							<input id="mujer" type="radio" name="sexo" value="mujer" /> mujer
+						</label>
+						<label for="hombre">
+							<input id="hombre" type="radio" name="sexo" value="hombre" /> hombre
+						</label>
+					</div>
+					<div class="intereses">
+						<label for="">
+							<input type="checkbox" id="cotizacion" value="cotizacion" /> Cotización
+						</label>
+						<label for="">
+							<input type="checkbox" id="reclamos" value="reclamos" /> Reclamos
+						</label>
+						<label for="">
+							<input type="checkbox" id="comentarios" value="comentarios" /> Comentarios
+						</label>
+						<label for="">
+							<input type="checkbox" id="otros" value="otros" /> Otros
+						</label>
+					</div>
+					<div class="">
+						<label for="comentarios">Comentarios</label>
+						<textarea name="comentarios" id="comentarios" cols="30" rows="5" class=""></textarea>
+						<input type="submit" class="">
+					</div>
+				</form>				
+			</div>
+			
+		</footer>
 	</body>
 </html>

@@ -22,7 +22,7 @@ a {
 }
 
 .header {
-	
+	position: relative;
 }
 
 .titulo {
@@ -113,7 +113,24 @@ button {
 	margin-left: 370px;
 }
 
-.header {
-	position: relative;
+.footer {
+	background: #273b47;
+}
 
+.contacto {
+	display: inline-block;
+	margin: auto;
+}
+
+.contacto img {
+	display: block;
+}
+
+.contacto strong {
+	display: block;
+}
+
+.contacto a {
+	color: white;
+	text-decoration: none;
 }
